@@ -1,0 +1,481 @@
+
+        body {
+            background-color: #FAF7FF;
+            /* min-height: 100vh; */
+        }
+
+        * {
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        .nav_list {
+            position: sticky;
+            font-weight: 500;
+            background-color: #FAF7FF;
+            padding: 2rem 2rem;
+            border-radius: var(--radius);
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        
+        .list_item_blog {
+            list-style: none;
+            margin-right: 2rem;
+            text-decoration: none;
+            list-style: none;
+
+        }
+
+        .list_item_submit {
+            list-style: none;
+            margin-right: 2rem;
+            text-decoration: none;
+            list-style: none;
+
+        }
+
+        .list_item_blog a{
+            text-decoration: none;
+            list-style: none;
+            color: #952CFD;
+        }
+
+        .list_item_submit a{
+            text-decoration: none;
+            list-style: none;
+            color: white;
+        }
+
+
+        
+        /* .list_item a {
+            font-size: 1.1rem;
+            font-weight: 500;
+            text-decoration: none;
+            color: rgb(38, 38, 38);
+        } */
+        
+        .logo_title {
+            font-size: 1.5rem;
+            text-decoration: none;
+            font-weight: regular;
+            margin-right: auto;
+            margin-left: 2rem;
+            text-decoration: none;
+            color:black;
+            list-style: none;
+        }
+
+        .logo_title a{
+            text-decoration: none;
+            list-style: none;
+            color:black;
+
+        }
+        
+        .cta {
+            text-decoration: none;
+            list-style: none;
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+            border: none;
+            outline: none;
+            background: linear-gradient(264.74deg, #952CFD 18.28%, #882CFD 85%);
+            box-shadow: 0px 4px 17px rgba(149, 44, 253, 0.5);
+            border-radius: 40px;
+            padding: 0.8rem 1.9rem;
+            cursor: pointer;
+        }
+
+        .cta a{
+            text-decoration: none;
+            list-style: none;
+        }
+        
+        .cta:hover {
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+            border: none;
+            outline: none;
+            background: linear-gradient(264.74deg, #952CFD 18.28%, #882CFD 85%);
+            box-shadow: 0px 6px 22px rgba(84, 4, 164, 0.5);
+            border-radius: 40px;
+            padding: 0.8rem 1.9rem;
+            cursor: pointer;
+        }
+
+
+        .herot_coint {
+            font-size: 10px;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 30;
+            margin: 15px 0px 5px 0px;
+
+        }
+
+        .raid_the_best {
+            width: 35%;
+            font-weight: 600;
+            text-align: center;
+            font-size: 4em;
+            padding: 0px 0px;
+            margin: 0px auto;
+            justify-content: center;
+        }
+
+        .newsletters_out_there {
+            width: 35%;
+            font-weight: 600;
+            text-align: center;
+            font-size: 4em;
+            padding: 0px 0px;
+            margin: 0px auto;
+        }
+        
+
+        .One_stop {
+            text-align: center;
+            font-size: 16px;
+            font-weight: normal;
+            margin-top: 0px;
+        }
+
+
+        .search {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 17px;
+        }
+
+        .search input {
+            margin: 0px 25px;
+            flex-shrink: 30;
+            width: 864px;
+            height: 70px;
+            border: 1px solid rgba(149, 44, 253, 0.43);
+            box-shadow: 0px 4px 36px rgba(143, 0, 255, 0.09);
+            border-radius: 13px;
+            display: inline-block;
+            font-weight: lighter;
+            font-size: 20px;
+            padding: 0px 25px;
+
+        }
+
+        .search input::placeholder {
+            color: rgba(163, 148, 255, 0.53);
+        }
+
+
+        .sbc {
+            font-size: 19px;
+            left: 2opx;
+            top: 0px;
+            padding: 0px;
+            margin: 50px 0px 15px 60px;
+        }
+        
+
+        .cointainer {
+            min-height: 185px;
+            margin: auto;
+            display: flex;
+            overflow-x: auto;
+            
+        }
+
+        .cointainer::-webkit-scrollbar {
+            width: 0;
+        }
+        
+
+        .cointainer .card {
+            text-align: center;
+            background-color: #FFFF;
+            margin: 12px;
+            padding: 20px;
+            position: relative;
+
+
+            min-width: 188px;
+            height: 130px;
+            left: 50px;
+            right: 100px;
+            top: 0px;
+            border: 1px solid rgba(149, 44, 253, 0.33);
+            border-radius: 17px;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+
+        .cointainer .card p {
+            font-weight: 600;
+            text-align: center;
+            position: relative;
+            margin: auto;
+            top: 30%;
+            transform: translateY(-30%);
+        }
+
+        .icons {
+            font-size: 32px;
+        }
+
+        .blank{
+            width: 100px;
+            display: inline-block;
+            font-size: 19px;
+            left: 50px;
+            top: 0px;
+            padding: 0px;
+            margin: 15px 0px 15px 60px;
+            border: 2px solid red;
+            visibility: hidden;
+        }
+
+
+        .sbc2 {
+            width: 100px;
+            display: inline-block;
+            font-size: 19px;
+            left: 50px;
+            top: 0px;
+            padding: 0px;
+            margin: 15px 0px 15px 60px;
+        }
+
+        
+        /* .nlcard_coint {
+            width: 100%;
+            height: 100%;
+            border: 2px solid red;
+        } */
+
+        .nl_card {
+            margin: 0px 15px 15px 0px;
+            width: 315px;
+            height: 267px;
+            /* border: 2px solid red; */
+            background: #FFFFFF;
+            box-shadow: 0px 4px 19px rgba(149, 44, 253, 0.09);
+            border-radius: 15px;
+            background: #fff;
+            padding: 25px;
+            display: inline-block;
+        }
+
+
+        .nlcard_coint {
+            position: relative;
+            display: flex;
+            flex-flow: row;
+            justify-content: flex-start;
+            /* border: 2px solid red; */
+            flex-wrap: wrap;
+            justify-content: c;
+
+            width: 100%;
+            height: 100%;
+            padding: 0px 55px 55px 55px;
+            margin: 0px 0px;
+            overflow-y: auto;
+        }
+
+
+
+        .profile_pic {
+            width: 50px;
+            height: 50px;
+            border-radius: 9px;
+        }
+
+        .nl_card h3 {
+            font-size: 16px;
+            position: relative;
+            left: 65px;
+            bottom: 53px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+
+        }
+
+        .nl_card h5 {
+            font-weight: 500;
+            font-size: 15px;
+            position: relative;
+            left: 65px;
+            bottom: 48px;
+
+        }
+
+        .nl_card span {
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+        .nl_card p {
+            margin: 0;
+            font-weight: 500;
+            font-size: 13px;
+            height: 45px;
+            width: 260px;
+            position: relative;
+            left: 0px;
+            bottom: 30px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+
+        .Subscribe {
+            position: relative;
+            margin: 0px;
+            left: 0px;
+            top: 45px;
+            border: none;
+            padding: 10px 17px;
+            background-color: #952CFD;
+            font-size: 15px;
+            color: #fff;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .know_more {
+            background-color: #DBDBDB;
+            float: right;
+            position: relative;
+            margin: 0px;
+            right: 0px;
+            top: 45px;
+            border: none;
+            padding: 10px 17px;
+            font-size: 15px;
+            color: rgb(30, 30, 30);
+            border-radius: 10px;
+            text-decoration: none;
+        }
+
+
+        .nlcsrd_cards::-webkit-scrollbar {
+            width: 0;
+        }
+
+
+        .footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column;
+            width: 100%;
+            min-height: 381px;
+            background: linear-gradient(265.19deg, #952CFD 4.57%, #CD9AFF 111.72%);
+        }
+
+        .footer_contents {
+            /* border: 2px solid greenyellow; */
+            padding: 100px 0px 65px 0px;
+            width: 500px;
+            justify-content: center;
+            
+        }
+
+        .ston {
+            margin: auto;
+            font-size: 22px;
+            text-align: center;
+            width: 369px;
+            color: #fff;
+            padding-bottom: 25px;
+
+        }
+
+        .subscribe_nl {
+            text-align: center;
+            margin: auto;
+            display: block;
+            width: 369px;
+            height: 49px;
+            border: 10px solid #f2eaff;
+            background: rgba(250, 247, 255, 0.39);
+            border-radius: 9px;
+            border: none;
+        }
+
+        .subscribe_nl input::placeholder {
+            color: #ffffff;
+        }
+
+        .Subscribe_button {
+            font-size: 18px;
+            display: block;
+            margin: 0px auto;
+            text-align: center;
+            height: 49px;
+            width: 369px;
+            color: rgb(21, 21, 21);
+            border: none;
+            border-radius: 9px;
+            background: #FFCA0E;
+        }
+
+        .nlcard_coint {
+            position: relative;
+            display: flex;
+            flex-flow: row;
+            justify-content: flex-start;
+            /* border: 2px solid red; */
+            flex-wrap: wrap;
+            justify-content: c;
+
+            width: 100%;
+            height: 100%;
+            padding: 0px 55px 55px 55px;
+            margin: 0px 0px;
+            overflow-y: auto;
+        }
+
+        .footer_content{
+            list-style-type: none;
+
+            font-size: 14px;
+            font-weight: 600;
+            color: #ffffff;
+            align-items: center;
+            margin: 0px 0px 5px 0px;
+
+        }
+
+        .footer_content ul{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .footer_content li{
+            padding: 0px 7px 0px 7px;
+            list-style-type: none;
+        }
+
+        .footer_copyright p{
+            font-size: 13px;
+            font-weight: 500;
+            color: #d5d5d5;
+            margin: 20px 0px 20px 0px;
+        }
+
+        
+
+
+
